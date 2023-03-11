@@ -1,0 +1,16 @@
+{
+    "editor.fontSize": 18,
+    "workbench.fontAliasing": "antialiased",
+    "debug.console.fontSize": 15,
+    "scm.inputFontSize": 15,
+    "terminal.integrated.fontSize": 18,
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.5,
+    "editor.lineHeight": 1.5,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    // "editor.fontFamily": "Fira Code, monospace",
+    // "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.cursorStyle": "underline",
+}

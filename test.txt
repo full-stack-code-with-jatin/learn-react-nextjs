@@ -1,0 +1,10 @@
+Type '{ ({ album }: PageProps): JSX.Element; pageHeadingText: string; }' 
+is not assignable to type 'NextPageWithLayout<{}, {}>'.
+  Type '{ ({ album }: PageProps): JSX.Element; pageHeadingText: string; }' 
+  is not assignable to type 'FunctionComponent<{}> & { getInitialProps?(context: NextPageContext): {} | Promise<{}>; } & { getLayout?: ((page: ReactElement<any, string | JSXElementConstructor<...>>, headingText: string) => ReactNode | Element) | undefined; pageHeadingText: string; }'.
+    Type '{ ({ album }: PageProps): JSX.Element; pageHeadingText: string; }' 
+    is not assignable to type 'FunctionComponent<{}>'.
+      Types of parameters '__0' and 'props' are incompatible.
+        Property 'album' is missing in type '{}' but required in type 'PageProps'
+        .typescript(2322)
+albums-list.tsx(8, 3): 'album' is declared here.
