@@ -13,4 +13,5 @@
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.cursorStyle": "underline",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
 }
