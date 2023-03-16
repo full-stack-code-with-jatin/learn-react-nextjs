@@ -23,8 +23,8 @@ const Todos: NextPageWithLayout = () => {
             <Head><title>Todos</title></Head>
             {loading && <span>Loading todos...</span>}
             {!loading && todos && <div className="grid grid-cols-3 gap-6">
-                {todos.map((todo: any) => (
-                    <span className={clsx(todo.completed ? 'text-green-500' : 'text-red-800')}>{todo.title}</span>
+                {todos.map((todo: any, index) => (
+                    <span key={index} className={clsx(todo.completed ? 'text-green-500' : 'text-red-800')}>{todo.title}</span>
                 ))}
             </div>}
         </>
